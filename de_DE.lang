@@ -10,7 +10,7 @@ general.nametag.confirm = "&a&lBestätigen"
 
 interface.spawner.upgradewithxp = "&aMit XP verbessern"
 interface.spawner.upgradewithxplore = "&7Kostet: &a%cost% Levels"
-interface.spawner.upgradewitheconomy = "&aKit Geld verbessern"
+interface.spawner.upgradewitheconomy = "&aMit Geld verbessern"
 interface.spawner.upgradewitheconomylore = "&7Kostet: &a$%cost%"
 interface.spawner.statstitle = "&6Spawner Statistiken"
 interface.spawner.stats = "&7&a%amount% &7bereits gespawned."
