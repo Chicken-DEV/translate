@@ -1,0 +1,30 @@
+#General Messages
+
+general.nametag.prefix = "&8[&6UltimateRepairing&8]"
+general.hologram.click = "Links-Klicke mit einem Item"
+general.hologram.swapclick = "Rechts-Klicke mit einem Item"
+general.hologram.oneclick = "Klicke mit einem Item"
+general.hologram.torepair = "um zu &6Reparieren&r!"
+
+#Interface Messages
+
+interface.repair.title = "&9Wie willst du reparieren?"
+interface.yesno.title = "&9Für &a%cost%&9 reparieren?"
+interface.yesno.yes = "&a&lJa"
+interface.yesno.no = "&c&lNein"
+interface.repair.xp = "&9XP"
+interface.repair.xplore = "&7Klicke um mit XP zu reparieren."
+interface.repair.eco = "&9Geld"
+interface.repair.ecolore = "&7Klicke um mit Geld zu reparieren."
+interface.repair.item = "&9%ITEM%"
+interface.repair.itemlore = "&7Klicke um das Item mit %item% zu reparieren."
+
+#Event Messages
+
+event.repair.timeout = "&cDie Zeit um dein Item zu reparieren wurde überschritten."
+event.repair.notdamaged = "&aDieses Item ist nich beschädigt."
+event.repair.needspace = "&cDu brauchst freien Platz über dem Amboss."
+event.repair.cantrepair = "&cDu kannst das nicht reparieren!"
+event.repair.notenough = "&cDu hast nicht genug %type% &cum das Item zu reparieren!"
+event.repair.success = "&aDein Item wurde erfolgreich repariert!"
+event.repair.cancelled = "&cReperatur abgebrochen."
