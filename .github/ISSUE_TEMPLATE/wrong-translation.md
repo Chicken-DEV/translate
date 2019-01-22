@@ -3,7 +3,7 @@ name: Wrong Translation
 about: Create a report to help me improve my translation
 title: "[WRONG]"
 labels: wrong translation
-assignees: ''
+assignees: Chicken-DEV
 
 ---
 
