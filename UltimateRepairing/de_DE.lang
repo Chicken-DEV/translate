@@ -9,7 +9,7 @@ general.hologram.torepair = "um es zu &6Reparieren&r!"
 #Interface Messages
 
 interface.repair.title = "&9Wie willst du reparieren?"
-interface.yesno.title = "&9Für &a%cost%&9 reparieren?"
+interface.yesno.title = "&9Fuer &a%cost%&9 reparieren?"
 interface.yesno.yes = "&a&lJa"
 interface.yesno.no = "&c&lNein"
 interface.repair.xp = "&9XP"
