@@ -2,63 +2,63 @@ Command:
     Island:
         Argument:
             Unrecognised:
-                Message: "&bSkyBlock &8| &cError&8: &eThat argument was not recognised."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieses Argument wurde nicht anerkannt."
         Help:
             Lines:
             - "&bSkyBlock &7- &e%type Commands&8:"
-            - "&c&o[&f&o!&c&o] &7&oHover over commands for info."
+            - "&c&o[&f&o!&c&o] &7&oBewege den Mauszeiger über die Befehle für mehr Informationen."
             - "&8&l* &e%commands &7- &f&o%info"
             Word:
-                Next: "&a&lNext Page"
-                Previous: "&a&lPrevious Page"
+                Next: "&a&lNächste Seite"
+                Previous: "&a&lVorherige Seite"
                 Pipe: "&8|"
             Integer:
-                Message: "&bSkyBlock &8| &cError&8: &ePlease provide a numerical value."
+                Message: "&bSkyBlock &8| &cFehler&8: &eBitte gebe einen Zahlenwert an"
             Page:
-                Message: "&bSkyBlock &8| &cError&8: &eThere are not that many pages."
+                Message: "&bSkyBlock &8| &cFehler&8: &eEs gibt nicht so viele Seiten.."
         ControlPanel:
             Info:
                 Message: "&f&oOpens the Island Control Panel menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
         Upgrade:
             Info:
                 Message: "&f&oOpens the Island Upgrade menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot do that because Island Upgrades have been disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot do that because Island Upgrades have been disabled."
         Border:
             Info:
                 Message: "&f&oOpens the Island Border menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to view the Island Border menu."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to view the Island Border menu."
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot do that because the Island Border has been disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot do that because the Island Border has been disabled."
         Leaderboard:
             Info:
                 Message: "&f&oOpens the Leaderboard menu of the top 10 Islands."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island leaderboard [<Level|Votes>]"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island leaderboard [<Level|Votes>]"
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot view that leaderboard because that leaderboard is disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot view that leaderboard because that leaderboard is disabled."
         Create:
             Info:
                 Message: "&f&oOpens the Island Creator menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are already an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are already an Island owner."
         Reset:
             Info:
                 Message: "&f&oResets your Island."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to reset your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to reset your Island."
             Confirmation:
                 Pending:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou currently have a pending confirmation. Please try again in a few seconds!"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou currently have a pending confirmation. Please try again in a few seconds!"
                 Confirm:
                     Word:
                         Confirm: "confirm"
@@ -68,12 +68,12 @@ Command:
             Info:
                 Message: "&f&oDeletes your Island."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to delete your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to delete your Island."
             Confirmation:
                 Pending:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou currently have a pending confirmation. Please try again in a few seconds!"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou currently have a pending confirmation. Please try again in a few seconds!"
                 Confirm:
                     Word:
                         Confirm: "confirm"
@@ -83,11 +83,11 @@ Command:
             Info:
                 Message: "&f&oTeleport to your Island."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island teleport [<player>]"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island teleport [<player>]"
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to teleport to other players Islands."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to teleport to other players Islands."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Teleported:
                 Yourself:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have been teleported to your Island."
@@ -95,63 +95,63 @@ Command:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have been teleport to &a%player's &eIsland."
             Island:
                 None:
-                    Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
                 Closed:
-                    Message: "&bSkyBlock &8| &cError&8: &eThat players Island is not open to Visitors."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThat players Island is not open to Visitors."
         SetSpawn:
             Info:
                 Message: "&f&oSet your Visitor and Main spawn point."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island setspawn <Main|Visitor>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island setspawn <Main|Visitor>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Role:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not the correct role to set the %spawn spawn point for your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not the correct role to set the %spawn spawn point for your Island."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to set the %spawn spawn point for your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to set the %spawn spawn point for your Island."
             Island:
-                Message: "&bSkyBlock &8| &cError&8: &eYou must be at your Island to set the %spawn spawn point."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must be at your Island to set the %spawn spawn point."
             Spawn:
-                Message: "&bSkyBlock &8| &cError&8: &eThat is not a correct spawn type."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat is not a correct spawn type."
             Protection:
                 Block:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must be standing on top of a block for spawn protection."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must be standing on top of a block for spawn protection."
                 Ground:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must be standing on the ground for spawn protection."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must be standing on the ground for spawn protection."
                 Liquid:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must not be standing in a liquid source for spawn protection."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must not be standing in a liquid source for spawn protection."
                 Portal:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must not be standing in a portal for spawn protection."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must not be standing in a portal for spawn protection."
                 Centre:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must be standing close to the centre of the block for spawn protection."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must be standing close to the centre of the block for spawn protection."
             Set:
                 Message: "&bSkyBlock &8| &aInfo&8: &eThe %spawn spawn point for your Island has been set to your location."
         Invite:
             Info:
                 Message: "&f&oInvite a Player to join your Island."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island invite <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island invite <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to invite players to your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to invite players to your Island."
             Capacity:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot invite any more players to your Island because your Island has reached the member capacity."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot invite any more players to your Island because your Island has reached the member capacity."
             Offline:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player could not be found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player could not be found."
             Yourself:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot invite yourself."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot invite yourself."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is already a member of the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already a member of the Island."
             Already:
                 Other:
-                    Message: "&bSkyBlock &8| &cError&8: &eAnother Island has invited this player to join them."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eAnother Island has invited this player to join them."
                 Own:
-                    Message: "&bSkyBlock &8| &cError&8: &eAn invite has already been sent to that player."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eAn invite has already been sent to that player."
             Invited:
                 Word:
-                    Second: "second(s)"
-                    Minute: "minute(s)"
+                    Second: "Sekunde(n)"
+                    Minute: "Minute(n)"
                     Cancel: "cancel"
                     Accept: "accept"
                     Deny: "deny"
@@ -171,15 +171,15 @@ Command:
                         Message: "&bSkyBlock &8| &aInfo&8: &eYou didn't respond to &c%player's &einvite in time."
         Accept:
             Info:
-                Message: "&f&oAccept an Island invitation."
+                Message: "&f&oEinladung zur Insel annehmen."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island accept <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island accept <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou must leave your Island to join another."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must leave your Island to join another."
             Invite:
-                Message: "&bSkyBlock &8| &cError&8: &eYou have not received an invite."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou have not received an invite."
             Invited:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player hasn't invited you to their Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player hasn't invited you to their Island."
             Capacity:
                 Broadcast:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYour recent invite from &d%player &ehas automatically been cancelled because the Island has reached the member capacity."
@@ -192,11 +192,11 @@ Command:
                     Message: "&bSkyBlock &8| &aInfo&8: &eThe player &6%player &ejoined your Island!"
         Deny:
             Info:
-                Message: "&f&oDeny an Island invitation."
+                Message: "&f&oEinladung zur Insel ablehnen."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island deny <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island deny <player>"
             Invited:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player hasn't invited you to their Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player hasn't invited you to their Island."
             Denied:
                 Target:
                     Message: "&bSkyBlock &8| &aInfo&8: &eThe player &c%player &ehas denied your invite."
@@ -206,26 +206,26 @@ Command:
             Info:
                 Message: "&f&oCancel a Player invitation."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island cancel <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island cancel <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to cancel invites to your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to cancel invites to your Island."
             Offline:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player could not be found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player could not be found."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is a member of the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is a member of the Island."
             Invited:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player hasn't been invited to your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player hasn't been invited to your Island."
             Cancelled:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have cancelled the player &c%player's &einvite."
         Leave:
             Info:
                 Message: "&f&oLeave another Player's Island."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not a member of an Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not a member of an Island."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot leave your own Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot leave your own Island."
             Left:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have left the Island."
@@ -235,15 +235,15 @@ Command:
             Info:
                 Message: "&f&oPromotes a Member to Operator."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island promote <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island promote <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to promote Island members."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to promote Island members."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not a member of your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
             Operator:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is already an Operator."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already an Operator."
             Promoted:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have promoted the player &d%player &eto an &dOperator&e."
@@ -255,15 +255,15 @@ Command:
             Info:
                 Message: "&f&oDemotes an Operator to Member."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island demote <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island demote <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to demote Island members."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to demote Island members."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not a member of your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
             Role:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is already a Member."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already a Member."
             Demoted:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have demoted the player &d%player &eto a &dMember&e."
@@ -273,20 +273,20 @@ Command:
             Info:
                 Message: "Add/Remove a vote from a players Island."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island vote <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island vote <player>"
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot vote for that Island because voting is disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot vote for that Island because voting is disabled."
             Island:
                 None:
-                    Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
                 Unloaded:
-                    Message: "&bSkyBlock &8| &cError&8: &eThere are no members of that Island online."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThere are no members of that Island online."
                 Closed:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot vote for that Island because it is closed."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot vote for that Island because it is closed."
                 Member:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot vote for that Island because you are a member of it."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot vote for that Island because you are a member of it."
                 Location:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must be at that players Island to vote."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must be at that players Island to vote."
             Vote:
                 Added:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYour vote has been &a&lADDED &efor &a%player's &eIsland."
@@ -294,32 +294,32 @@ Command:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYour vote has been &c&lREMOVED &efor &a%player's &eIsland."
         Kick:
             Info:
-                Message: "&f&oRemove a Member or Visitor from your Island."
+                Message: "&f&oEntferne ein Mitglied oder einen Besucher von deiner Insel."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island kick <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island kick <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
                 Visit:
                     Open:
-                        Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to kick Island members or visitors."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to kick Island members or visitors."
                     Closed:
-                        Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to kick Island members."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to kick Island members."
             Occupant:
                 Visit:
                     Open:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat player is not a member or visitor of your Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member or visitor of your Island."
                     Closed:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat player is not a member of your Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
             Yourself:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot kick yourself from the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot kick yourself from the Island."
             Cooped:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot kick a cooped player."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot kick a cooped player."
             Role:
                 Operator:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot kick a member the Island the same role as you."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot kick a member the Island the same role as you."
                 Owner:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot kick the owner from their own Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot kick the owner from their own Island."
             Kicked:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have kicked the player &c%player &efrom the Island."
@@ -327,23 +327,23 @@ Command:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have been kicked from the Island."
         Ban:
             Info:
-                Message: "&f&oBan a player from your Island."
+                Message: "&f&oVerbanne einen Spieler von deiner Insel."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island ban <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island ban <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot perform this command because Island banning has been disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot perform this command because Island banning has been disabled."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to ban Island members."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to ban Island members."
             Found:
-                Message: "&bSkyBlock &8| &cError&8: &eA player by that name was not found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eA player by that name was not found."
             Yourself:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot ban yourself from the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot ban yourself from the Island."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot ban that player from the Island because they are a Member of it."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot ban that player from the Island because they are a Member of it."
             Already:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is already banned from the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already banned from the Island."
             Banned:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have banned the player &c%player &efrom the Island."
@@ -353,134 +353,134 @@ Command:
             Info:
                 Message: "&f&oUnban a Player from your Island."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island unban <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island unban <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot perform this command because Island banning has been disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot perform this command because Island banning has been disabled."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to unban Island members."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to unban Island members."
             Found:
-                Message: "&bSkyBlock &8| &cError&8: &eA player by that name was not found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eA player by that name was not found."
             Yourself:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not banned from the Island because you are a Member of it."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not banned from the Island because you are a Member of it."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not banned from the Island because they are a Member of it."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not banned from the Island because they are a Member of it."
             Banned:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player has not been banned from the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player has not been banned from the Island."
             Unbanned:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have unbanned the player &c%player &efrom the Island."
         Bans:
             Info:
                 Message: "&f&oOpens the Island Bans menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to view your Island bans."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to view your Island bans."
             Bans:
-                Message: "&bSkyBlock &8| &cError&8: &eThere are no player bans for your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThere are no player bans for your Island."
         Biome:
             Info:
                 Message: "&f&oOpens the Island Biome menu."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to change your Island's biome."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to change your Island's biome."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
         Weather:
             Info:
-                Message: "&f&oOpens the Island Weather menu."
+                Message: "&f&oOefnet das Wetter Menue deiner Insel."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to change your Island's weather."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to change your Island's weather."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
         Rollback:
             Info:
                 Message: "&f&oOpens the Island Rollback menu."
             Role:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not the correct role to access the Island Rollback menu."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not the correct role to access the Island Rollback menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
         Level:
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island level [<player>]"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island level [<player>]"
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to get the level of other players Islands."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to get the level of other players Islands."
             Info:
-                Message: "&f&oOpens the Island Level menu."
+                Message: "&f&oÖffnet das Insel Level Menü."
             Processing:
                 Message: "&bSkyBlock &8| &aInfo&8: &7&oProcessing Island level request... Please wait!"
             Loading:
                 Message: "&bSkyBlock &8| &aInfo&8: &7&oLoading Island Materials... Please wait!"
             Owner:
                 Yourself:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Insel Besitzer."
                 Other:
-                    Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
             Level:
                 Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player's &eIsland level is &6%level&e."
             Materials:
-                Message: "&bSkyBlock &8| &cError&8: &eThere are no significant materials on your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThere are no significant materials on your Island."
             Cooldown:
                 Word:
-                    Hour: "hour(s)"
-                    Minute: "minute(s)"
-                    Second: "second(s)"
-                Message: "&bSkyBlock &8| &cError&8: &eYou must wait &c&o%time &ebefore processing an Island level request."
+                    Hour: "Stunde(n)"
+                    Minute: "Minute(n)"
+                    Second: "Sekunde(n)"
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must wait &c&o%time &ebefore processing an Island level request."
         Value:
             Info:
                 Message: "&f&oGets the value of a material in your hand."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to get the value of an item."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to get the value of an item."
             Hand:
-                Message: "&bSkyBlock &8| &cError&8: &eYou must be holding an item in your hand."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must be holding an item in your hand."
             None:
-                Message: "&bSkyBlock &8| &cError&8: &eCannot get the value of that material."
+                Message: "&bSkyBlock &8| &cFehler&8: &eCannot get the value of that material."
             Value:
                 Message: "&bSkyBlock &8| &aInfo&8: &eThe value of the material '&d%material&e' is &d%points &epoints and has a &d%level &elevel increase."
         Settings:
             Info:
                 Message: "&f&oOpen the Island Settings menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Role:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not the correct role to access the Island Settings."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not the correct role to access the Island Settings."
             Permission:
                 Default:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to change or access your Island's settings."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to change or access your Island's settings."
                 Access:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to access this setting."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to access this setting."
                 Change:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to change this setting."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to change this setting."
         Information:
             Info:
                 Message: "&f&oOpens the Island Information menu."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island information [<player>]"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island information [<player>]"
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to view information on other players islands."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to view information on other players islands."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Island:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
         Coop:
             Info:
                 Message: "&f&oOpen the Island Coop menu or add/remove coop players."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to do that."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to do that."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island coop [<player>]"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island coop [<player>]"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot perform this command because Island Coop has been disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot perform this command because Island Coop has been disabled."
             Found:
-                Message: "&bSkyBlock &8| &cError&8: &eA player by that name was not found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eA player by that name was not found."
             Yourself:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot coop yourself because you're a Member of the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot coop yourself because you're a Member of the Island."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player cannot be cooped because they are a Member of the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player cannot be cooped because they are a Member of the Island."
             Banned:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot coop a banned player."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot coop a banned player."
             Added:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have cooped the player &d%player&e."
             Removed:
@@ -492,21 +492,21 @@ Command:
             Info:
                 Message: "&f&oOpen the Island Members menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
         Ownership:
             Info:
                 Message: "&f&oOpen the Island Ownership menu."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island ownership / (<player> / <password>)"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island ownership / (<player> / <password>)"
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Member:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not a member of your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
             Yourself:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot assign ownership to yourself. You are already the owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot assign ownership to yourself. You are already the owner."
             Confirmation:
                 Pending:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou currently have a pending confirmation. Please try again in a few seconds!"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou currently have a pending confirmation. Please try again in a few seconds!"
                 Confirm:
                     Word:
                         Confirm: "confirm"
@@ -514,9 +514,9 @@ Command:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou want to assign ownership of the Island to the player &d%player&e. You have &c%time &eseconds to confirm.   %confirm"
             Password:
                 Unset:
-                    Message: "&bSkyBlock &8| &cError&8: &eThe owner of the Island has not set a password."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThe owner of the Island has not set a password."
                 Incorrect:
-                    Message: "&bSkyBlock &8| &cError&8: &eThe password you have entered is incorrect."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThe password you have entered is incorrect."
             Assigned:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have assigned yourself ownership of the Island."
@@ -524,35 +524,35 @@ Command:
                     Message: "&bSkyBlock &8| &aInfo&8: &eThe ownership of the Island has been assigned to the player &a%player&e!"
             Cooldown:
                 Word:
-                    Hour: "hour(s)"
-                    Minute: "minute(s)"
-                    Second: "second(s)"
-                Message: "&bSkyBlock &8| &cError&8: &eYou must wait &c&o%time &ebefore transferring island ownership."
+                    Hour: "Stunde(n)"
+                    Minute: "Minute(n)"
+                    Second: "Sekunde(n)"
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must wait &c&o%time &ebefore transferring island ownership."
         Confirmation:
             Info:
                 Message: "&f&oConfirmation for permanent operations."
             Pending:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have a pending confirmation."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have a pending confirmation."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot confirm your pending confirmation because you are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot confirm your pending confirmation because you are not an Island owner."
             Specified:
-                Message: "&bSkyBlock &8| &cError&8: &eA reason for confirmation hasn't been specified. This wasn't suppose to happen."
+                Message: "&bSkyBlock &8| &cFehler&8: &eA reason for confirmation hasn't been specified. This wasn't suppose to happen."
             Role:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot confirm your pending confirmation because you are no longer the Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot confirm your pending confirmation because you are no longer the Island owner."
             Ownership:
                 Member:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot confirm your pending confirmation because the player you assigned ownership to is no longer a Member of the Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot confirm your pending confirmation because the player you assigned ownership to is no longer a Member of the Island."
                 Assigned:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have been assigned ownership of the Island."
             Deletion:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou are no longer an Island owner."
                 Open:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must close your island before deleting it."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must close your island before deleting it."
                 Spawn:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot delete your island because the main spawn point is set there."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot delete your island because the main spawn point is set there."
                 Money:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have enough money to delete your island. The cost of deleting your island is &c%cost&e."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have enough money to delete your island. The cost of deleting your island is &c%cost&e."
                 Broadcast:
                     Message: "&bSkyBlock &8| &aInfo&8: &eThe Island owner has disbanded the Island."
             Confirmed:
@@ -561,11 +561,11 @@ Command:
             Info:
                 Message: "&f&oCommunicate privately with Island Members."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Team:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot toggle Island chat because your Island is not a team."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot toggle Island chat because your Island is not a team."
             Offline:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot toggle Island chat because no members are online."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot toggle Island chat because no members are online."
             Toggled:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have toggled the Island chat. Chat messages will only be visible to Island members."
             Untoggled:
@@ -574,22 +574,22 @@ Command:
             Info:
                 Message: "&f&oOpens the Island Visitors menu."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Closed:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot open the Visitors menu because your Island is closed."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot open the Visitors menu because your Island is closed."
             Visitors:
-                Message: "&bSkyBlock &8| &cError&8: &eThere are no Visitors at your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThere are no Visitors at your Island."
         KickAll:
             Info:
                 Message: "&f&oKick all Visitors from your Island."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
             Role:
-                Message: "&bSkyBlock &8| &cError&8: &eYou are not the correct role to kick visitors."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not the correct role to kick visitors."
             Closed:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot kick visitors because your Island is closed."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot kick visitors because your Island is closed."
             Visitors:
-                Message: "&bSkyBlock &8| &cError&8: &eThere are no visitors at your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThere are no visitors at your Island."
             Kicked:
                 Target:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have been kicked from the Island."
@@ -599,11 +599,11 @@ Command:
             Info:
                 Message: "&f&oDisplay the current Island you are at."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island current <player>"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island current <player>"
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to see what Island other players are at."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to see what Island other players are at."
             Offline:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not connected to the server."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not connected to the server."
             Island:
                 Owner:
                     Yourself:
@@ -619,36 +619,36 @@ Command:
             Info:
                 Message: "&f&oOpens a menu of public Islands to Visit."
             Invalid:
-                Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island visit [<player>]"
+                Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island visit [<player>]"
         Open:
             Info:
                 Message: "&f&oOpens your Island to Visitors."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to open the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to open the Island."
             Already:
-                Message: "&bSkyBlock &8| &cError&8: &eYour Island is already open."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYour Island is already open."
             Opened:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYour Island has been opened."
         Close:
             Info:
                 Message: "&f&oCloses your Island to Visitors."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to close the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to close the Island."
             Already:
-                Message: "&bSkyBlock &8| &cError&8: &eYour Island is already closed."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYour Island is already closed."
             Closed:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYour Island has been closed."
         Public:
             Info:
                 Message: "&f&oMake your Island private or public."
             Owner:
-                Message: "&bSkyBlock &8| &cError&8: &eThat player is not an Island owner."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not an Island owner."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to make the Island public or private."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to make the Island public or private."
             Public:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYour Island is now &aPublic&e."
             Private:
@@ -656,36 +656,36 @@ Command:
         Admin:
             Help:
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
             Create:
                 Info:
                     Message: "&f&oManage Structures for the Island Creator menu."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
             Upgrade:
                 Info:
                     Message: "&f&oManager Upgrades for the Island Upgrade menu."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Disabled:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot peform that command because upgrades have been disabled."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot peform that command because upgrades have been disabled."
             Generator:
                 Info:
                     Message: "&f&oManager generators for cobblestone generators."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Disabled:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot peform that command because the generator has been disabled."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot peform that command because the generator has been disabled."
             Level:
                 Info:
                     Message: "&f&oChange Island level materials and points."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
             Settings:
                 Info:
                     Message: "&f&oChange the default settings for when an Island is created."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
             Structure:
                 Info:
                     Message: "&f&oCreate structures for Islands."
@@ -693,153 +693,153 @@ Command:
                     Info:
                         Message: "&f&oGives the player the Structure tool item."
                     Permission:
-                        Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                     Inventory:
-                        Message: "&bSkyBlock &8| &cError&8: &eYou already have the Structure tool in your Inventory."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eYou already have the Structure tool in your Inventory."
                     Equiped:
                         Message: "&bSkyBlock &8| &aInfo&8: &eYou have been given the Structure tool."
                 Save:
                     Info:
                         Message: "&f&oSaves a selected Structure."
                     Permission:
-                        Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                     Invalid:
-                        Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin structure save <name>"
+                        Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin structure save <name>"
                     Position:
-                        Message: "&bSkyBlock &8| &cError&8: &ePlease use the structure tool to select two positions of an area."
+                        Message: "&bSkyBlock &8| &cFehler&8: &ePlease use the structure tool to select two positions of an area."
                     Complete:
-                        Message: "&bSkyBlock &8| &cError&8: &ePlease complete the area selection by using the structure tool and selecting two positions of an area."
+                        Message: "&bSkyBlock &8| &cFehler&8: &ePlease complete the area selection by using the structure tool and selecting two positions of an area."
                     Selection:
                         World:
-                            Message: "&bSkyBlock &8| &cError&8: &eBoth selected positions have to be in the same World."
+                            Message: "&bSkyBlock &8| &cFehler&8: &eBoth selected positions have to be in the same World."
                     Player:
                         World:
-                            Message: "&bSkyBlock &8| &cError&8: &eYou must be in the same World as the selected positions."
+                            Message: "&bSkyBlock &8| &cFehler&8: &eYou must be in the same World as the selected positions."
                         Area:
-                            Message: "&bSkyBlock &8| &cError&8: &eYou must be inside the selected area."
+                            Message: "&bSkyBlock &8| &cFehler&8: &eYou must be inside the selected area."
                     Saved:
                         Successful:
                             Message: "&bSkyBlock &8| &aInfo&8: &eThe structure with the name '&d%name&e' has been saved!"
                         Failed:
-                            Message: "&bSkyBlock &8| &cError&8: &eAn error occured when trying to save the Structure."
+                            Message: "&bSkyBlock &8| &cFehler&8: &eAn Fehler occured when trying to save the Structure."
             SetSpawn:
                 Info:
                     Message: "&f&oSets the spawn point to your location."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Set:
                     Message: "&bSkyBlock &8| &aInfo&8: &eThe spawn point has been set to your location."
             SetHologram:
                 Info:
                     Message: "&f&oSets the location of a hologram."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin sethologram <Level|Votes>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin sethologram <Level|Votes>"
                 Set:
                     Message: "&bSkyBlock &8| &aInfo&8: &eThe '&b%type&e' hologram has been set to your location."
             RemoveHologram:
                 Info:
                     Message: "&f&oRemoves an existing hologram."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin removehologram <Level|Votes>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin removehologram <Level|Votes>"
                 Set:
-                    Message: "&bSkyBlock &8| &cError&8: &eA location for that hologram has not been set."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eA location for that hologram has not been set."
                 Removed:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have removed the '&b%type&e' hologram."
             SetSize:
                 Info:
                     Message: "&f&oSets the size of a players Island."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin setsize <player> <size>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin setsize <player> <size>"
                 Numerical:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must enter a numerical value."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must enter a numerical value."
                 Size:
                     Greater:
-                        Message: "&bSkyBlock &8| &cError&8: &eThe size of the Island must be greater than 50."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThe size of the Island must be greater than 50."
                     Less:
-                        Message: "&bSkyBlock &8| &cError&8: &eThe size of the Island must be less than 1000."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThe size of the Island must be less than 1000."
                 Island:
                     Owner:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
                     Data:
-                        Message: "&bSkyBlock &8| &cError&8: &eThe island data for that players island does not exist."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThe island data for that players island does not exist."
                 Set:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have set the player &d%player's &eIsland size to &d%size&e."
             AddUpgrade:
                 Info:
                     Message: "&f&oAdd an upgrade to a players Island."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin addupgrade <player> <upgrade>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin addupgrade <player> <upgrade>"
                 Island:
                     Owner:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
                     Data:
-                        Message: "&bSkyBlock &8| &cError&8: &eThe island data for that players island does not exist."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThe island data for that players island does not exist."
                 Upgrade:
                     Exist:
-                        Message: "&bSkyBlock &8| &cError&8: &eAn upgrade by that name does not exist."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eAn upgrade by that name does not exist."
                     Already:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat players island already has that upgrade."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat players island already has that upgrade."
                 Added:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have &a&lADDED the upgrade '&d%upgrade&e' to the player &d%player's &eIsland."
             RemoveUpgrade:
                 Info:
                     Message: "&f&oRemoves an upgrade from a players Island."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin removeupgrade <player> <upgrade>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin removeupgrade <player> <upgrade>"
                 Island:
                     Owner:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
                     Data:
-                        Message: "&bSkyBlock &8| &cError&8: &eThe island data for that players island does not exist."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThe island data for that players island does not exist."
                 Upgrade:
                     Exist:
-                        Message: "&bSkyBlock &8| &cError&8: &eAn upgrade by that name does not exist."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eAn upgrade by that name does not exist."
                     Missing:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat players island does not have that upgrade."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat players island does not have that upgrade."
                 Removed:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have &c&lREMOVED &ethe upgrade '&d%upgrade&e' from the player &d%player's &eIsland."
             Delete:
                 Info:
                     Message: "&f&oDelete a players Island permanently."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin delete <player_name>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin delete <player_name>"
                 Owner:
-                    Message: "&bSkyBlock &8| &cError&8: &eThat player is not an Island owner."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not an Island owner."
                 Spawn:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot delete that island because the main spawn point is set there."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot delete that island because the main spawn point is set there."
                 Deleted:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have deleted the player &c%player's &eIsland."
             Owner:
                 Info:
                     Message: "&f&oGet the owner of a player's Island."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Invalid:
-                    Message: "&bSkyBlock &8| &cError&8: &eInvalid: /island admin owner <player_name>"
+                    Message: "&bSkyBlock &8| &cFehler&8: &eInvalid: /island admin owner <player_name>"
                 Island:
                     None:
-                        Message: "&bSkyBlock &8| &cError&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
                     Member:
                         Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player's Island owner is &d%player&e."
                     Owner:
                         Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player &eis an Island owner."
             Reload:
                 Info:
-                    Message: "&f&oReload all loaded files."  
+                    Message: "&f&oReload all loaded files."
                 Permission:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to perform that command."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to perform that command."
                 Reloaded:
                     Message: "&bSkyBlock &8| &aInfo&8: &eAll loaded files have been reloaded."
 Island:
@@ -848,60 +848,60 @@ Island:
             Created:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou are now an Island owner."
             None:
-                Message: "&bSkyBlock &8| &cError&8: &eThere are no Structures available to use."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThere are no Structures available to use."
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to use that Structure."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to use that Structure."
             File:
                 Overworld:
-                    Message: "&bSkyBlock &8| &cError&8: &eThe structure file for the overworld does not exist."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThe structure file for the overworld does not exist."
                 Nether:
-                    Message: "&bSkyBlock &8| &cError&8: &eThe structure file for the nether does not exist."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThe structure file for the nether does not exist."
             Cooldown:
                 Word:
-                    Minute: "minute(s)"
-                    Second: "second(s)"
-                Message: "&bSkyBlock &8| &cError&8: &eYou must wait &c&o%time &ebefore creating an Island."
-        Error:
-            Message: "&bSkyBlock &8| &cError&8: &eThe main spawn point must be set before you are able to create an island by performing the command '&f&o/island admin setspawn&e'."
+                    Minute: "Minute(n)"
+                    Second: "Sekunde(n)"
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must wait &c&o%time &ebefore creating an Island."
+        Fehler:
+            Message: "&bSkyBlock &8| &cFehler&8: &eThe main spawn point must be set before you are able to create an island by performing the command '&f&o/island admin setspawn&e'."
     Upgrade:
         Disabled:
-            Message: "&bSkyBlock &8| &cError&8: &eYou cannot do that because Island Upgrades have been disabled."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot do that because Island Upgrades have been disabled."
         Owner:
-            Message: "&bSkyBlock &8| &cError&8: &eYou are not an Island owner."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou are not an Island owner."
         Exist:
-            Message: "&bSkyBlock &8| &cError&8: &eThat upgrade does not exist."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThat upgrade does not exist."
         Money:
-            Message: "&bSkyBlock &8| &cError&8: &eYou don't have enough money for that upgrade."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have enough money for that upgrade."
         Bought:
             Message: "&bSkyBlock &8| &aInfo&8: &eYou have bought the upgrade '%upgrade&e'."
         Claimed:
-            Message: "&bSkyBlock &8| &cError&8: &eYou have already claimed that upgrade."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou have already claimed that upgrade."
     Biome:
         Cooldown:
             Word:
-                Minute: "minute(s)"
-                Second: "second(s)"
-            Message: "&bSkyBlock &8| &cError&8: &eYou must wait &c&o%time &ebefore changing your Island biome."
+                Minute: "Minute(n)"
+                Second: "Sekunde(n)"
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou must wait &c&o%time &ebefore changing your Island biome."
     Information:
         Island:
-            Message: "&bSkyBlock &8| &cError&8: &eThe player you selected no longer has an Island."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThe player you selected no longer has an Island."
         Visitors:
-            Message: "&bSkyBlock &8| &cError&8: &eThere are no visitors at the selected Island."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThere are no visitors at the selected Island."
         Closed:
-            Message: "&bSkyBlock &8| &cError&8: &eThe selected Island is closed to visitors."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThe selected Island is closed to visitors."
     Settings:
         Permission:
-            Message: "&bSkyBlock &8| &cError&8: &eYou do not have the right to do that on this Island."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to do that on this Island."
         Visitor:
             Welcome:
                 Disabled:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to use that feature."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to use that feature."
             Signature:
                 Disabled:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to use that feature."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to use that feature."
     Portal:
         Destination:
-            Message: "&bSkyBlock &8| &cError&8: &eThere is no destination to travel to going through that portal."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThere is no destination to travel to going through that portal."
     World:
         Word:
             Nether: "nether"
@@ -909,26 +909,26 @@ Island:
         Message: "&bSkyBlock &8| &aInfo&8: &eYou have been teleported out of the nether because the nether is disabled."
     WorldBorder:
         Outside:
-            Message: "&bSkyBlock &8| &cError&8: &eYou went too far outside the Island WorldBorder."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou went too far outside the Island WorldBorder."
         Disappeared:
-            Message: "&bSkyBlock &8| &cError&8: &eThe Island you were on suddenly disappeared."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThe Island you were on suddenly disappeared."
     Visit:
         Already:
-            Message: "&bSkyBlock &8| &cError&8: &eYou are already at that player's Island."
+            Message: "&bSkyBlock &8| &cFehler&8: &eYou are already at that player's Island."
         Exist:
-            Message: "&bSkyBlock &8| &cError&8: &eThat Island no longer exists."
+            Message: "&bSkyBlock &8| &cFehler&8: &eThat Island no longer exists."
         Closed:
             Menu:
-                Message: "&bSkyBlock &8| &cError&8: &eThat Island is no longer open for visitors."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat Island is no longer open for visitors."
             Island:
                 Message: "&bSkyBlock &8| &aInfo&8: &eThe Island you were at is no longer open for visitors."
             Plugin:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot teleport to the destination location because the Island isn't open for visitors."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot teleport to the destination location because the Island isn't open for visitors."
         Banned:
             Island:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have been banned from the Island you were at."
             Teleport:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot teleport to the destination location because you are banned from that Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot teleport to the destination location because you are banned from that Island."
         Teleported:
             Message: "&bSkyBlock &8| &aInfo&8: &eYou have been teleported to &a%player's &eIsland."
         Unloaded:
@@ -937,7 +937,7 @@ Island:
             Message: "&bSkyBlock &8| &aInfo&8: &eThe owner of the Island has deleted their Island. You have been kicked from the Island."
         Vote:
             Island:
-                Message: "&bSkyBlock &8| &cError&8: &eYou must be at that Island to vote."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must be at that Island to vote."
             Added:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYour vote has been &a&lADDED &efor &a%player's &eIsland."
             Removed:
@@ -947,7 +947,7 @@ Island:
             Position:
                 Message: "&bSkyBlock &8| &aInfo&8: &ePosition &b%position &ehas been selected!"
             Material:
-                Message: "&bSkyBlock &8| &cError&8: &eThe defined material in the configuration file for the Structure selection tool could not be found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThe defined material in the configuration file for the Structure selection tool could not be found."
             Item:
                 Displayname: "&bStructure Tool"
                 Lore:
@@ -956,9 +956,9 @@ Island:
     Chat:
         Format:
             Role:
-                Member: "&a[Member]"
+                Member: "&a[Mitglied]"
                 Operator: "&b[Operator]"
-                Owner: "&c[Owner]"
+                Owner: "&c[Besitzer]"
             Message: "&8[&bSkyBlock &8| &dChat&8] %role &e%player&8: &f%message"
         Untoggled:
             Message: "&bSkyBlock &8| &aInfo&8: &eThe Island chat has been untoggled because there are no Island members online. Chat messages will now be visible for all players."
@@ -971,19 +971,19 @@ Island:
     Admin:
         Creator:
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to do that."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to do that."
             Already:
-                Message: "&bSkyBlock &8| &cError&8: &eA structure by that name already exists."
+                Message: "&bSkyBlock &8| &cFehler&8: &eA structure by that name already exists."
             Exist:
-                Message: "&bSkyBlock &8| &cError&8: &eThat structure does not exist."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat structure does not exist."
             Selected:
-                Message: "&bSkyBlock &8| &cError&8: &eYou have not selected a structure."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou have not selected a structure."
             Numerical:
-                Message: "&bSkyBlock &8| &cError&8: &eYou must enter a numerical value."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must enter a numerical value."
             File:
-                Message: "&bSkyBlock &8| &cError&8: &eThat file does not exist in the structures directory."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat file does not exist in the structures directory."
             Characters:
-                Message: "&bSkyBlock &8| &cError&8: &eThe structure name can only contain letters and numbers."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThe structure name can only contain letters and numbers."
             Item:
                 Added:
                     Message: "&bSkyBlock &8| &aInfo&8: &eSelect an item in your inventory."
@@ -997,41 +997,41 @@ Island:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have removed the structure with the name '&d%structure&e'."
         Upgrade:
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to do that."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to do that."
             Numerical:
-                Message: "&bSkyBlock &8| &cError&8: &eYou must enter a numerical value."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou must enter a numerical value."
             Tier:
                 Exist:
-                    Message: "&bSkyBlock &8| &cError&8: &eA tier for that upgrade already exists."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eA tier for that upgrade already exists."
                 Limit:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou have reached the limit of tiers for this upgrade."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou have reached the limit of tiers for this upgrade."
                 Selected:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot do that because the selected tier has been removed."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot do that because the selected tier has been removed."
                 Size:
-                    Message: "&bSkyBlock &8| &cError&8: &eThe size of the tier must be less than 1000."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThe size of the tier must be less than 1000."
         Generator:
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to do that."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to do that."
             Disabled:
-                Message: "&bSkyBlock &8| &cError&8: &eYou cannot do that because generators have been disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot do that because generators have been disabled."
             Already:
-                Message: "&bSkyBlock &8| &cError&8: &eA generator by that name already exists."
+                Message: "&bSkyBlock &8| &cFehler&8: &eA generator by that name already exists."
             Exist:
-                Message: "&bSkyBlock &8| &cError&8: &eThat generator does not exist."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat generator does not exist."
             Selected:
-                Message: "&bSkyBlock &8| &cError&8: &eYou have not selected a generator."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou have not selected a generator."
             Characters:
-                Message: "&bSkyBlock &8| &cError&8: &eThe generator name can only contain letters and numbers."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThe generator name can only contain letters and numbers."
             Chance:
                 Numerical:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou must enter a numerical value."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must enter a numerical value."
                 Over:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou cannot set the chance of the material to that because the overall chance total of the materials for this generator goes over 100."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot set the chance of the material to that because the overall chance total of the materials for this generator goes over 100."
             Material:
                 Limit:
-                    Message: "&bSkyBlock &8| &cError&8: &eYou have reached the limit of materials for that generator."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eYou have reached the limit of materials for that generator."
                 Already:
-                    Message: "&bSkyBlock &8| &cError&8: &eThat material type has already been added to that generator."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eThat material type has already been added to that generator."
                 Added:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have added the material '&d%material&e' to the generator '&d%generator&e'."
             Created:
@@ -1040,13 +1040,13 @@ Island:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have removed the generator with the name '&d%generator&e'."
         Levelling:
             Permission:
-                Message: "&bSkyBlock &8| &cError&8: &eYou don't have permission to do that."
+                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to do that."
             Already:
-                Message: "&bSkyBlock &8| &cError&8: &eThat material type has already been added."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat material type has already been added."
             Exist:
-                Message: "&bSkyBlock &8| &cError&8: &eThat material type has not been added."
+                Message: "&bSkyBlock &8| &cFehler&8: &eThat material type has not been added."
             Numerical:
-                Message: "&bSkyBlock &8| &cError&8: &ePlease provide a numerical value."
+                Message: "&bSkyBlock &8| &cFehler&8: &ePlease provide a numerical value."
             Added:
                 Message: "&bSkyBlock &8| &aInfo&8: &eYou have added the material '&d%material&e'."
             Removed:
@@ -1287,7 +1287,7 @@ Menu:
                 Lore:
                 - "&7[&f!&7] Manage your Island settings"
                 - "    &7and decide what permissions you"
-                - "    &7want to give." 
+                - "    &7want to give."
                 - ""
                 - "&eClick to view Island settings!"
             Members:
@@ -1734,7 +1734,7 @@ Menu:
                 - "&eClick to %choice!"
     Rollback:
         Title: "&8Island Rollback"
-        Item:   
+        Item:
             Info:
                 Displayname: "&bRollback Information"
             Barrier:
@@ -2241,7 +2241,7 @@ Menu:
                 Next:
                     Displayname: "&aNext Page >"
                 Barrier:
-                    Displayname: "&cIsland Members Below"    
+                    Displayname: "&cIsland Members Below"
                 Statistics:
                     Displayname: "&3&nStatistics"
                     Lore:
@@ -2272,7 +2272,7 @@ Menu:
                 Next:
                     Displayname: "&aNext Page >"
                 Barrier:
-                    Displayname: "&cIsland Visitors Below"    
+                    Displayname: "&cIsland Visitors Below"
                 Statistics:
                     Displayname: "&3&nStatistics"
                     Lore:
@@ -2370,8 +2370,8 @@ Menu:
                 Word:
                     Days: "day(s)"
                     Hours: "hour(s)"
-                    Minutes: "minute(s)"
-                    Seconds: "second(s)"
+                    Minutes: "Minute(n)"
+                    Seconds: "Sekunde(n)"
                     Click: "Click"
                     Left-Click: "Left-Click"
                     Right-Click: "Right-Click"
@@ -2629,8 +2629,8 @@ Menu:
                 Word:
                     Days: "day(s)"
                     Hours: "hour(s)"
-                    Minutes: "minute(s)"
-                    Seconds: "second(s)"
+                    Minutes: "Minute(n)"
+                    Seconds: "Sekunde(n)"
                 Kick:
                     Permission:
                         Ban:
