@@ -13,15 +13,15 @@ interface.yesno.title = "&9Für &a%cost%&9 reparieren?"
 interface.yesno.yes = "&a&lJa"
 interface.yesno.no = "&c&lNein"
 interface.repair.xp = "&9XP"
-interface.repair.xplore = "&7Klicke um mit XP zu reparieren."
+interface.repair.xplore = "&7Klicke um das Item mit XP zu reparieren."
 interface.repair.eco = "&9Geld"
-interface.repair.ecolore = "&7Klicke um mit Geld zu reparieren."
+interface.repair.ecolore = "&7Klicke um das Item mit Geld zu reparieren."
 interface.repair.item = "&9%ITEM%"
 interface.repair.itemlore = "&7Klicke um das Item mit %item% zu reparieren."
 
 #Event Messages
 
-event.repair.timeout = "&cDie Zeit um dein Item zu reparieren wurde überschritten."
+event.repair.timeout = "&cDie Zeit um dein Item zu reparieren ist abgelaufen."
 event.repair.notdamaged = "&aDieses Item ist nich beschädigt."
 event.repair.needspace = "&cDu brauchst freien Platz über dem Amboss."
 event.repair.cantrepair = "&cDu kannst das nicht reparieren!"
