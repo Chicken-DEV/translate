@@ -30,11 +30,11 @@ Command:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDas kannst du nicht tun, weil Insel-Upgrades deaktiviert wurden."
         Border:
             Info:
-                Message: "&f&oÖffnet das Insel Grenzen Menü."
+                Message: "&f&oÖffnet das Inselgrenzenmenü."
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Permission:
-                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast nicht das Recht, das Insel Grenzen Menü anzuzeigen."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast nicht das Recht, das Inselgrenzenmenü anzuzeigen."
             Disabled:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDas kannst du nicht tun, weil die Inselgrenze deaktiviert wurde."
         Leaderboard:
@@ -85,7 +85,7 @@ Command:
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island teleport [<player>]"
             Permission:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou don't have permission to teleport to other players Islands."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast keine Berechtigung, dich auf die Inseln anderer Spieler zu teleportieren."
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Teleported:
@@ -112,7 +112,7 @@ Command:
             Island:
                 Message: "&bSkyBlock &8| &cFehler&8: &eYou must be at your Island to set the %spawn spawn point."
             Spawn:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat is not a correct spawn type."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDas ist kein richtiger Spawn-Typ."
             Protection:
                 Block:
                     Message: "&bSkyBlock &8| &cFehler&8: &eYou must be standing on top of a block for spawn protection."
@@ -128,165 +128,165 @@ Command:
                 Message: "&bSkyBlock &8| &aInfo&8: &eThe %spawn spawn point for your Island has been set to your location."
         Invite:
             Info:
-                Message: "&f&oInvite a Player to join your Island."
+                Message: "&f&oLade einen Spieler ein, sich deiner Insel anzuschließen."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island invite <player>"
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Permission:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to invite players to your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast nicht das Recht, Spieler auf deine Insel einzuladen."
             Capacity:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot invite any more players to your Island because your Island has reached the member capacity."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu kannst keine weiteren Spieler auf deine Insel einladen, da deine Insel die Mitgliederkapazität erreicht hat."
             Offline:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player could not be found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler konnte nicht gefunden werden."
             Yourself:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot invite yourself."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu kannst dich nicht selbst einladen."
             Member:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already a member of the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist bereits ein Mitglied der Insel."
             Already:
                 Other:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eAnother Island has invited this player to join them."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eEine andere Insel hat diesen Spieler eingeladen, sich ihnen anzuschließen."
                 Own:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eAn invite has already been sent to that player."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eEine Einladung wurde bereits an diesen Spieler gesendet."
             Invited:
                 Word:
                     Second: "Sekunde(n)"
                     Minute: "Minute(n)"
-                    Cancel: "cancel"
-                    Accept: "accept"
-                    Deny: "deny"
-                    Resend: "resend"
-                    Tutorial: "&7Click to &f&o%action &r&7invite!"
+                    Cancel: "abzubrechen"
+                    Accept: "anzunehmen"
+                    Deny: "abzulehnen"
+                    Resend: "erneut zu senden"
+                    Tutorial: "&7Klicke um die Einladung &f&o%action &r&7!"
                 Sender:
                     Sent:
                         Message: "&bSkyBlock &8| &aInfo&8: &eYou have invited the player &d%player &eto join your Island. They have &c%time &eto respond.   %cancel"
                     Expired:
-                        Message: "&bSkyBlock &8| &aInfo&8: &eThe player &c%player &edidn't respond to your invite in time."
+                        Message: "&bSkyBlock &8| &aInfo&8: &eDer Spieler &c%player &ehat nicht rechtzeitig auf deine Einladung reagiert."
                     Disconnected:
-                        Message: "&bSkyBlock &8| &aInfo&8: &eThe player &c%player &edisconnected and didn't respond to your invite."
+                        Message: "&bSkyBlock &8| &aInfo&8: &eDer Spieler &c%player &ehat die Verbindung getrennt und auf deine Einladung nicht reagiert."
                 Target:
                     Received:
-                        Message: "&bSkyBlock &8| &aInfo&8: &eYou have been invited to join &d%player's &eIsland. You have &c%time &eto respond.    "
+                        Message: "&bSkyBlock &8| &aInfo&8: &eDu wurdest eingeladen, der Insel von &d%player's &e beizutreten. Du hast &c%time &e um zu antworten."
                     Expired:
-                        Message: "&bSkyBlock &8| &aInfo&8: &eYou didn't respond to &c%player's &einvite in time."
+                        Message: "&bSkyBlock &8| &aInfo&8: &eDu hast nicht rechtzeitig auf &c%player's &einladung reagiert."
         Accept:
             Info:
                 Message: "&f&oEinladung zur Insel annehmen."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island accept <player>"
             Owner:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou must leave your Island to join another."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu musst deine Insel verlassen, um dich einer anderen anzuschließen."
             Invite:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou have not received an invite."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast keine Einladung erhalten."
             Invited:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player hasn't invited you to their Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler hat dich nicht auf seine Insel eingeladen."
             Capacity:
                 Broadcast:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYour recent invite from &d%player &ehas automatically been cancelled because the Island has reached the member capacity."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDeine letzte Einladung von &d%player &ewurde automatisch abgebrochen, weil die Insel die maximale Mitgliederzahl erreicht hat."
             Accepted:
                 Target:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player &eaccepted your invite."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDer Spieler &d%player &ehat deine Einladung angenommen."
                 Sender:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYou accepted the player &d%player's &einvite."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDu hast &d%player's &eeinladung akzeptiert."
                 Broadcast:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eThe player &6%player &ejoined your Island!"
+                    Message: "&bSkyBlock &8| &aInfo&8: &6%Player &eist deiner Insel beigetreten!"
         Deny:
             Info:
                 Message: "&f&oEinladung zur Insel ablehnen."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island deny <player>"
             Invited:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player hasn't invited you to their Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler hat dich nicht auf seine Insel eingeladen."
             Denied:
                 Target:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eThe player &c%player &ehas denied your invite."
+                    Message: "&bSkyBlock &8| &aInfo&8: &c%player &ehat deine Einladung abgelehnt."
                 Sender:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYou have denied the player &c%player's &einvite."
+                    Message: "&bSkyBlock &8| &aInfo&8: Du hast &c%player's &eEinladung abgelehnt."
         Cancel:
             Info:
-                Message: "&f&oCancel a Player invitation."
+                Message: "&f&oBreche eine Einladung ab."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island cancel <player>"
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Permission:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to cancel invites to your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast nicht das Recht, Einladungen auf deine Insel abzubrechen."
             Offline:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player could not be found."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler konnte nicht gefunden werden."
             Member:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is a member of the Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist bereits ein Mitglied der Insel."
             Invited:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player hasn't been invited to your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler wurde nicht auf deine Insel eingeladen."
             Cancelled:
-                Message: "&bSkyBlock &8| &aInfo&8: &eYou have cancelled the player &c%player's &einvite."
+                Message: "&bSkyBlock &8| &aInfo&8: &eDu hast &c%player's &eEinladung abgebrochen."
         Leave:
             Info:
-                Message: "&f&oLeave another Player's Island."
+                Message: "&f&oVerlasse die Insel eines anderen Spielers."
             Member:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou are not a member of an Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Mitglied einer Insel."
             Owner:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot leave your own Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu kannst deine eigene Insel nicht verlassen."
             Left:
                 Sender:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYou have left the Island."
                 Broadcast:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eThe player &c%player &ehas left your Island."
+                    Message: "&bSkyBlock &8| &aInfo&8: &c%player &ehat deine Insel verlassen."
         Promote:
             Info:
-                Message: "&f&oPromotes a Member to Operator."
+                Message: "&f&oBefördert ein Mitglied zum Operator."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island promote <player>"
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Permission:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to promote Island members."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast nicht das Recht, Inselmitglieder zu fördern."
             Member:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist kein Mitglied deiner Insel."
             Operator:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already an Operator."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist bereits ein Operator."
             Promoted:
                 Sender:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYou have promoted the player &d%player &eto an &dOperator&e."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDu hast &d%player &ezu einem &dOperator &ebefördert."
                 Target:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYou have been promoted to an &dOperator&e."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDu wurdest zum &dOperator &ebefördert."
                 Broadcast:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player &ehas been promoted to an &dOperator&e."
+                    Message: "&bSkyBlock &8| &aInfo&8: &d%player &ewurde zum &dOperator &ebefördert."
         Demote:
             Info:
-                Message: "&f&oDemotes an Operator to Member."
+                Message: "&f&oDegradiert einen Operator zum Mitglied."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island demote <player>"
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Permission:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou do not have the right to demote Island members."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu hast nicht das Recht, Inselmitglieder zu degradieren."
             Member:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist kein Mitglied deiner Insel."
             Role:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is already a Member."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist bereits ein Mitglied."
             Demoted:
                 Sender:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYou have demoted the player &d%player &eto a &dMember&e."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDu hast &d%player &ezu einem &dMitglied &edegradiert."
                 Target:
-                    Message: "&bSkyBlock &8| &aInfo&8: &eYou have been demoted to a &dMember&e."
+                    Message: "&bSkyBlock &8| &aInfo&8: &eDu wurdest zu einem &dMitglied &edegradiert."
         Vote:
             Info:
                 Message: "Add/Remove a vote from a players Island."
             Invalid:
                 Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island vote <player>"
             Disabled:
-                Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot vote for that Island because voting is disabled."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDu kannst nicht für diese Insel stimmen, weil die Abstimmung deaktiviert ist."
             Island:
                 None:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
                 Unloaded:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eThere are no members of that Island online."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eEs sind keine Mitglieder dieser Insel online."
                 Closed:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot vote for that Island because it is closed."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eMan kann nicht für diese Insel stimmen, weil sie geschlossen ist."
                 Member:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot vote for that Island because you are a member of it."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eDu kannst nicht für diese Insel stimmen, weil du ein Mitglied dieser Insel bist."
                 Location:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eYou must be at that players Island to vote."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eDu musst auf der Insel des Spielers sein, um für sie abzustimmen."
             Vote:
                 Added:
                     Message: "&bSkyBlock &8| &aInfo&8: &eYour vote has been &a&lADDED &efor &a%player's &eIsland."
@@ -310,7 +310,7 @@ Command:
                     Open:
                         Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member or visitor of your Island."
                     Closed:
-                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist kein Mitglied deiner Insel."
             Yourself:
                 Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot kick yourself from the Island."
             Cooped:
@@ -415,7 +415,7 @@ Command:
                 Yourself:
                     Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Insel Besitzer."
                 Other:
-                    Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                    Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
             Level:
                 Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player's &eIsland level is &6%level&e."
             Materials:
@@ -461,7 +461,7 @@ Command:
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Island:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
         Coop:
             Info:
                 Message: "&f&oOpen the Island Coop menu or add/remove coop players."
@@ -501,7 +501,7 @@ Command:
             Owner:
                 Message: "&bSkyBlock &8| &cFehler&8: &eDu bist kein Inselbesitzer."
             Member:
-                Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a member of your Island."
+                Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist kein Mitglied deiner Insel."
             Yourself:
                 Message: "&bSkyBlock &8| &cFehler&8: &eYou cannot assign ownership to yourself. You are already the owner."
             Confirmation:
@@ -765,7 +765,7 @@ Command:
                         Message: "&bSkyBlock &8| &cFehler&8: &eThe size of the Island must be less than 1000."
                 Island:
                     Owner:
-                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
                     Data:
                         Message: "&bSkyBlock &8| &cFehler&8: &eThe island data for that players island does not exist."
                 Set:
@@ -779,7 +779,7 @@ Command:
                     Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island admin addupgrade <player> <upgrade>"
                 Island:
                     Owner:
-                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
                     Data:
                         Message: "&bSkyBlock &8| &cFehler&8: &eThe island data for that players island does not exist."
                 Upgrade:
@@ -798,7 +798,7 @@ Command:
                     Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island admin removeupgrade <player> <upgrade>"
                 Island:
                     Owner:
-                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
                     Data:
                         Message: "&bSkyBlock &8| &cFehler&8: &eThe island data for that players island does not exist."
                 Upgrade:
@@ -830,7 +830,7 @@ Command:
                     Message: "&bSkyBlock &8| &cFehler&8: &eUngültig: /island admin owner <player_name>"
                 Island:
                     None:
-                        Message: "&bSkyBlock &8| &cFehler&8: &eThat player is not a Member or owns an Island."
+                        Message: "&bSkyBlock &8| &cFehler&8: &eDieser Spieler ist weder ein Mitglied einer Insel, noch besitzt er eine Insel."
                     Member:
                         Message: "&bSkyBlock &8| &aInfo&8: &eThe player &d%player's Island owner is &d%player&e."
                     Owner:
